@@ -4,7 +4,7 @@
 class cliente
  {
    public $nome;
-   public $codigo;
+   private $codigo;
  }
 
 $a = new cliente();
@@ -29,6 +29,7 @@ class cartao
 
 $c = new cartao();
 $d = new cartao();
+$f = new cartao();
 
 $c->numero = '1111111';
 $c->Validade = '01/01/2013';
